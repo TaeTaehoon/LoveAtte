@@ -1,7 +1,16 @@
 const upRightBtn = document.querySelector("#upright-btn");
 
-upRightBtn.addEventListener("click", () => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
+upRightBtn.addEventListener("click", () =>
+  window.scrollTo({ top: 0, behavior: "smooth" })
+);
+
+window.addEventListener("scroll", () => {
+  console.log(window.scrollY);
+  if (window.scrollY !== 0) {
+    upRightBtn.classList.remove("hidden");
+  } else {
+    upRightBtn.classList.add("hidden");
+  }
 });
 
 const categoryElement = document.querySelectorAll("#category > li");
