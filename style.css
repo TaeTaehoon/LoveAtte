@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {
+  margin: 50px auto 20px auto;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #2684c6;
+}
+
+#category {
+  display: flex;
+  line-height: 50px;
+  text-align: center;
+}
+#category li {
+  padding: 0 15px 0 15px;
+}
+
+#category li a {
+  font-size: 1rem;
+}
+
+#category a:hover {
+  text-decoration: 1px solid black underline;
+  cursor: pointer;
+}
+
+.child-category {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 200;
+  color: grey;
+}
+.child-category li:hover {
+  color: black;
+}
+
+#container {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sns-icon {
+  display: flex;
+  font-size: 15px;
+  padding-bottom: 50px;
+}
+
+#upright-btn {
+  display: block;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+}
