@@ -14,16 +14,24 @@ a {
 body {
   font-family: "Josefin Sans", sans-serif;
 }
+
+.top-fixed {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  padding-top: 15px;
+  background-color: #ffffff;
+  width: 100vw;
+}
 header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-header h1 {
+header img {
   margin: 50px auto 20px auto;
-  font-size: 3.5rem;
-  font-weight: 700;
   color: #2684c6;
 }
 
@@ -51,7 +59,8 @@ header h1 {
   right: 0;
   display: flex;
   justify-content: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
+  background-color: #ffffff;
   line-height: 20px;
   font-size: 14px;
   font-weight: 200;
@@ -65,8 +74,13 @@ header h1 {
   padding-top: 40px;
   display: flex;
   justify-content: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
+#container img {
+  max-width: 100%;
+}
 footer {
   margin-top: 500px;
   display: flex;
@@ -76,14 +90,39 @@ footer {
 
 #sns-icon {
   display: flex;
-  font-size: 15px;
   padding-bottom: 50px;
 }
+#sns-icon li {
+  padding: 0 7.5px 0 7.5px;
+}
+#sns-icon img {
+  width: 15px;
+  height: 15px;
+}
 
+#chat-btn {
+  width: 75px;
+  height: 75px;
+  background-color: #fee700;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 990;
+}
+#chat-btn img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
 #upright-btn {
   display: block;
   position: fixed;
   bottom: 10px;
   right: 10px;
   z-index: 9999;
+  background-color: #ffffff;
 }

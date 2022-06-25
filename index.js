@@ -8,11 +8,13 @@ window.addEventListener("scroll", () => {
   console.log(window.scrollY);
   if (window.scrollY !== 0) {
     upRightBtn.classList.remove("hidden");
+    category.classList.add("top-fixed");
   } else {
     upRightBtn.classList.add("hidden");
+    category.classList.remove("top-fixed");
   }
 });
-
+const category = document.querySelector("#category");
 const categoryElement = document.querySelectorAll("#category > li");
 const childCategory = document.querySelectorAll(".child-category");
 
