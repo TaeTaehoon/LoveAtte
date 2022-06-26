@@ -5,7 +5,6 @@ upRightBtn.addEventListener("click", () =>
 );
 
 window.addEventListener("scroll", () => {
-  console.log(window.scrollY);
   if (window.scrollY !== 0) {
     upRightBtn.classList.remove("hidden");
     category.classList.add("top-fixed");
