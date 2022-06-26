@@ -15,8 +15,6 @@ scrollBtns.forEach((element) => {
 // function trackingIndex() {}
 
 function scrolling(e) {
-  console.log("wheel!");
-
   const presentView = focusIndex;
   if (e.clientY > 158.5) {
     if (e.deltaY < -8.5 && focusIndex > 0) {
@@ -51,6 +49,7 @@ function pauseScroll() {
 function addScroll() {
   document.body.addEventListener("wheel", scrolling);
 }
+
 addScroll();
 
 window.addEventListener("load", () => {

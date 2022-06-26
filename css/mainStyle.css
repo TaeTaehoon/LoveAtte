@@ -16,7 +16,7 @@ a {
 }
 body {
   font-family: "Josefin Sans", sans-serif;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 header {
@@ -88,6 +88,91 @@ header img {
   object-fit: cover;
   height: 100vh;
 }
+#container #attatch1 {
+  position: absolute;
+  width: 45%;
+  top: 53%;
+  left: 54%;
+  min-width: 490px;
+}
+#attatch1 h3 {
+  font-size: 0.8rem;
+}
+#attatch1 h2 {
+  padding: 15px 0 40px 0;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+#attatch1 button {
+  padding: 10px 40px 10px 40px;
+  background: none;
+  border: 1px solid black;
+}
+
+#attatch1 button:hover {
+  color: #ffffff;
+  background-color: black;
+}
+
+#container #attatch2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 45%;
+  top: 155%;
+  left: 25%;
+  min-width: 490px;
+}
+#attatch2 h3 {
+  font-size: 0.8rem;
+  padding-bottom: 10px;
+}
+#attatch2 h2 {
+  padding: 0 0 30px 0;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+#attatch2 button {
+  padding: 10px 40px 10px 40px;
+  margin-top: 20px;
+  background: none;
+  border: 1px solid black;
+}
+
+#attatch2 button:hover {
+  color: #ffffff;
+  background-color: black;
+}
+
+#container #attatch3 {
+  position: absolute;
+  width: 45%;
+  top: 260%;
+  left: 60%;
+  min-width: 300px;
+}
+#attatch3 h3 {
+  font-size: 0.8rem;
+}
+#attatch3 h2 {
+  padding: 15px 0 40px 0;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+#attatch3 button {
+  padding: 10px 40px 10px 40px;
+  background: none;
+  border: 1px solid black;
+}
+
+#attatch3 button:hover {
+  color: #ffffff;
+  background-color: black;
+}
 
 #scroll-list {
   position: fixed;
@@ -150,12 +235,4 @@ footer {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-}
-#upright-btn {
-  display: block;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  z-index: 9999;
-  background-color: #ffffff;
 }
