@@ -45,6 +45,7 @@ header img {
   line-height: 50px;
   text-align: center;
   max-width: 100vw;
+  z-index: 9999;
 }
 #category li {
   padding: 0 15px 0 15px;
@@ -82,6 +83,7 @@ header img {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
+  height: 100%;
 }
 
 #container img {
@@ -108,6 +110,7 @@ header img {
   padding: 10px 40px 10px 40px;
   background: none;
   border: 1px solid black;
+  color: black;
 }
 
 #attatch1 button:hover {
@@ -140,6 +143,7 @@ header img {
   margin-top: 20px;
   background: none;
   border: 1px solid black;
+  color: black;
 }
 
 #attatch2 button:hover {
@@ -167,6 +171,7 @@ header img {
   padding: 10px 40px 10px 40px;
   background: none;
   border: 1px solid black;
+  color: black;
 }
 
 #attatch3 button:hover {
