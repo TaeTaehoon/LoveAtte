@@ -4,16 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
+    <title>LOVETTE-Clone</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
-      <a href="index.html"><h1>LOVETTE</h1></a>
+      <a href="html/mainPage.html"
+        ><img src="img/toplogo.png" alt="Lovette"
+      /></a>
       <ul id="category">
         <li>
-          <a href="http://lovette.co.kr/product/list.html?cate_no=50">SHOP</a>
+          <a href="/html/shopPage.html">SHOP</a>
           <ul class="child-category hidden">
             <li>VIEW ALL</li>
             <li>AGE</li>
@@ -64,17 +66,28 @@
       <ul id="sns-icon">
         <li>
           <a href="https://www.instagram.com/lovette_korea/" target="_blank">
-            icon1
+            <img src="img/icons/instagram-nav-icon.png" alt="instagram" />
           </a>
         </li>
-        <li>icon2</li>
-        <li>icon3</li>
-        <li>icon4</li>
-        <li>icon5</li>
+        <li>
+          <img src="img/icons/facebook-nav-icon.png" alt="facebook" />
+        </li>
+        <li>
+          <img src="img/icons/twitter-nav-icon.png" alt="twitter" />
+        </li>
+        <li>
+          <img src="img/icons/google-nav-icon.png" alt="google" />
+        </li>
+        <li>
+          <img src="img/icons/tstory-nav-icon.png" alt="tstory" />
+        </li>
       </ul>
       "This page is cloned by ThingK"
     </footer>
-    <div id="upright-btn">
+    <div id="chat-btn">
+      <img src="img/icons/kakao-nav-icon.png" alt="kakaoTalk" />
+    </div>
+    <div id="upright-btn" class="hidden">
       <img src="img/icons/upright-nav-icon.png" alt="pageUp" />
     </div>
     <script src="index.js"></script>
